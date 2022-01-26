@@ -1,7 +1,7 @@
 body {
-    background-color: #FF9671;
+    background-color: rgba(76, 76, 94, 0.247);
     font-family: 'Lobster Two', cursive;
-    color: #FFC75F;
+    color: #5F9DB0;
 }
 
 .choices {
@@ -11,11 +11,31 @@ body {
 }
 
 .option {
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 50%;
     font-size: 2.5rem;
-    color: #FFC75F;
+    color: #5F9DB0;
     font-family: 'Lobster Two';
-    background-color: #845EC2;
+    background-color: slategray;
+}
+
+.option:hover {
+    color: slategray;
+    background-color: #5F9DB0;
+}
+
+.scoreboard {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    font-size: 3rem;
+}
+
+.score {
+    margin-left: 1rem;
+    font-size: 4rem;
+    color:#395c66;
 }
 
