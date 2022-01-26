@@ -1,0 +1,21 @@
+body {
+    background-color: #FF9671;
+    font-family: 'Lobster Two', cursive;
+    color: #FFC75F;
+}
+
+.choices {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.option {
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: #FFC75F;
+    font-family: 'Lobster Two';
+    background-color: #845EC2;
+}
+
